@@ -36,6 +36,8 @@
   margin-top: 80px;
 }
 
+/* Начало блока header */
+
 .logo_place_header {
   width: 183px;
   height: 32px;
@@ -85,6 +87,9 @@
   z-index: 0;
 }
 
+/* Конец блока header */
+/* Начало блока description */
+
 .description {
   display: flex;
   justify-content: center;
@@ -129,6 +134,77 @@
 .two-columns__span-accent {
   font-weight: 700;
 }
+
+/* Конец блока description */
+/* Начало блока digits */
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  margin: 0 auto 20px;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+  display: block;
+  width: 60%;
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  display: block;
+  width: 60%;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  flex-basis: 250px;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0 0 20px;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_bank {
+  margin-top: 20px;
+}
+
+
+
+/* Конец блока digits */
+
+
 
 .bord {
   border: 1px solid red;
