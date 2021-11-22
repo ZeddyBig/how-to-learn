@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 64px;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -200,11 +201,56 @@
   margin-top: 20px;
 }
 
-
-
 /* Конец блока digits */
+/* Начало блока feynman */
+
+.feynman {
+  background-color: #f2f2f2;
+  height: 890px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  z-index: -2;
+}
+
+.feynman__title {
+  margin: 0 auto 70px;
+  padding: 100px 0 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+  width: 648px;
+}
+
+.feynman__subtitle {
+
+}
+
+.feynman__text {
+  margin: 0;
+  padding: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;  
+}
+
+.feynman__link {
+  top: 50%;
+  right: 48px;
+  position: absolute;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: -1;
+}
 
 
+/* Конец блока feynman */
 
 .bord {
   border: 1px solid red;
