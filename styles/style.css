@@ -137,7 +137,7 @@
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph_last {
+.two-columns__paragraph:last-child {
   margin-bottom: 0px;
 }
 
@@ -206,7 +206,7 @@
   font-weight: normal;
 }
 
-.table__text_bank {
+.table__text:last-child {
   margin-top: 20px;
 }
 
@@ -231,7 +231,7 @@
   font-weight: 700;
 }
 
-.feynman__text {
+.feynman__subtitle {
   margin: 0;
   padding: 0;
   line-height: 51px;
@@ -245,6 +245,11 @@
   right: 48px;
   text-decoration: none;
   color: #2f80ed;
+  margin: 0;
+  padding: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
   z-index: 2;
 }
 
@@ -318,14 +323,14 @@
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
 
-.logo_place-footer {
+.logo_place_footer {
   height: 35px;
 }
 
@@ -364,7 +369,7 @@
   align-items: stretch;
 }
 
-.footer_social-icon-mini-logo {
+.footer_social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
