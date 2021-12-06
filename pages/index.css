@@ -55,9 +55,6 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 /* Конец описания логотипов logo*/
-
-@import url(../blocks/rotation/rotation.css);
-
 /* Начало techniques */
 @import url(../blocks/content/techniques/techniques.css);
 @import url(../blocks/content/techniques/cards/cards.css);
@@ -91,3 +88,4 @@
 @import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/content/resources/__logo/resources__logo.css);
 /* Конец resources */
+@import url(../blocks/rotation/rotation.css);
