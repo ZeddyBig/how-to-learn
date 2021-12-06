@@ -56,35 +56,63 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 /* Конец описания логотипов logo*/
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+@import url(../blocks/rotation/rotation.css);
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0px auto 100px;
+  width: 80%;
 }
 
-/* и элемента с модификатором вида ключ-значение 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}*/
+.cards {
+  width: 920px;
+  display: flex;
+  margin: auto;
+  padding: 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
 
-/* Начало блока header */
+.cards__item {
+  width: 240px;
+  margin-right: 100px;
+}
 
-/* Конец блока header */
-/* Начало блока description */
+.cards__item:nth-child(3n) {
+  margin-right: 0px;
+}
 
-/* Конец блока description */
-/* Начало блока digits */
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 90px;
+}
 
-/* Конец блока digits */
-/* Начало блока feynman */
+.cards__title {
+  margin: 0 0 16px;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
 
-/* Конец блока feynman */
-/* Начало блока kaufman */
+.cards__description {
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
 
-/* Конец блока kaufman */
-/* Начало блока footer */
 
-/* Конец блока footer */
+
+
+
+.redblock {
+  border: 1px solid red;
+}
