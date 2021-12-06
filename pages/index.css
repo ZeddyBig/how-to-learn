@@ -67,148 +67,27 @@
 @import url(../blocks/content/techniques/cards/__description/cards__description.css);
 /* Конец techniques */
 /* Начало video */
-
-
-.video {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 0px auto -60px;
-  width: 80%;
-}
-
-.video__iframes {
-  margin: 50px auto 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.video__iframe {
-  margin-right: 20px;
-}
-
-.video__iframe:last-child {
-  margin-right: 0px;
-}
+@import url(../blocks/content/video/video.css);
+@import url(../blocks/content/video/__iframes/video__iframes.css);
+@import url(../blocks/content/video/__iframe/video__iframe.css);
 /* Конец video */
 /* Начало oakley */
-
-.oakley {
-  display: flex;
-  justify-content: center;
-  background-color: #f2f2f2;
-  padding-top: 60px;
-}
-
+@import url(../blocks/content/oakley/oakley.css);
 /* Конец oakley */
 /* Начало khan */
-
-.khan {
-  background-color: #f2f2f2;
-  padding: 105px 0 0;
-}
-
-.khan__container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.khan__author {
-  margin: 0;
-  padding: 0;
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-}
-
-.khan__title {
-  margin: 0 0 50px;
-  padding: 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
-}
-
-.khan__quote {
-  margin: 0 0 36px;
-  padding: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 790px;
-}
-
-.khan__quote-author {
-  margin: 0 0 10px;
-  padding: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.khan__quote-author-subline {
-  margin: 0 0 68px;
-  padding: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.khan__book-container {
-  display: flex;
-  align-content: flex-start;
-}
-
-.khan__book-pic {
-  width: 620px;
-  height: 608px;
-  margin-right: 48px;
-  background-image: url(../images/khan-book.jpg);
-  background-size: cover;
-}
-
-.khan__buy-link {
-  margin: 0;
-  padding: 0;
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-  opacity: 1;
-  transition: opacity 0.5s ease;
-  height: 42px;
-  /*Добавил height такой же, как у line-height,
-  чтобы ссылка была размером со строку, а не 608px*/
-}
-
-.khan__buy-link:hover {
-  opacity: 0.6;
-}
-
+@import url(../blocks/content/khan/khan.css);
+@import url(../blocks/content/khan/__container/khan__container.css);
+@import url(../blocks/content/khan/__author/khan__author.css);
+@import url(../blocks/content/khan/__title/khan__title.css);
+@import url(../blocks/content/khan/__quote/khan__quote.css);
+@import url(../blocks/content/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/content/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/content/khan/__book-container/khan__book-container.css);
+@import url(../blocks/content/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/content/khan/__buy-link/khan__buy-link.css);
 /* Конец khan */
 /* Начало resources */
-
-.resources {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.resources__logo-zone {
-  display: flex;
-  flex-direction: row;
-  width: 1100px;
-  margin: 0 auto;
-  padding: 100px 0 217px;
-}
-
-.resources__logo {
-  width: 270px;
-  height: 38px;
-}
-
+@import url(../blocks/content/resources/resources.css);
+@import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/content/resources/__logo/resources__logo.css);
 /* Конец resources */
