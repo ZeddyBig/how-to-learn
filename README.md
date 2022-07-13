@@ -18,4 +18,5 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>
 </div>
 
-Оценить проект можно по этой ссылке: https://zeddybig.github.io/how-to-learn/
+**Оцените мою работу сами!**
+[Ссылка на GitHub Pages](https://zeddybig.github.io/how-to-learn/)
